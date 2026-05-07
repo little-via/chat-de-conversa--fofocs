@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>fofocs</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+
+<header>
+  <h2>fofocs</h2>
+  <p id="usuarioLogado"></p>
+</header>
+
+<div class="chat-container">
+
+  <div class="sidebar" id="listaChats"></div>
+
+  <div class="chat-area">
+
+    <div class="chat-header" id="chatName">
+      Selecione uma conversa
+    </div>
+
+    <div class="messages" id="messages"></div>
+
+    <div class="input-area">
+      <input type="text" id="msg" placeholder="Digite uma mensagem">
+      <button onclick="sendMessage()">➤</button>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  IFRN Campus Santa Cruz <br>
+  Disciplina: Programação para Internet <br>
+  Prof: Marcelo Júnior <br>
+  Desenvolvedores: Ana Liviah e Josefa Yasmim <br>
+</footer>
+
+<script src="js/chat.js"></script>
+</body>
+</html>
